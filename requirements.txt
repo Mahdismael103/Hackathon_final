@@ -1,0 +1,15 @@
+# Pinned for reproducibility. numpy 2.3 / scipy 1.16 dropped Python 3.10, so 3.10 gets the last
+# releases that support it (same APIs; the code is tested with both sets).
+numpy==2.3.1; python_version >= "3.11" and python_version < "3.14"
+numpy==2.3.3; python_version >= "3.14"
+numpy==2.2.6; python_version < "3.11"
+scipy==1.16.2; python_version >= "3.11"
+scipy==1.15.3; python_version < "3.11"
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.2
+threadpoolctl==3.6.0
+python-dateutil==2.9.0.post0
+pytz==2026.5
+tzdata==2026.5
+six==1.17.0

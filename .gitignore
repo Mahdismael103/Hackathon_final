@@ -1,0 +1,7 @@
+outputs/
+stress/
+practice/
+practice_solutions/
+__pycache__/
+*.pyc
+.venv/
